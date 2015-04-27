@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/RootLayout"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimaryDark"/>
+
+    <me.xiaopan.android.widget.PagerSlidingTabStrip
+        android:id="@+id/tabStrip_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:allowWidthFull="true"
+        app:slidingBlock="@drawable/image_sliding_block"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/text_slidingTabTitle"
+                android:text="精品"/>
+            <TextView
+                style="@style/text_slidingTabTitle"
+                android:text="排行"/>
+            <TextView
+                style="@style/text_slidingTabTitle"
+                android:text="新品"/>
+            <TextView
+                style="@style/text_slidingTabTitle"
+                android:text="分类"/>
+            <TextView
+                style="@style/text_slidingTabTitle"
+                android:text="管理"/>
+        </LinearLayout>
+    </me.xiaopan.android.widget.PagerSlidingTabStrip>
+
+    <me.xiaopan.compatviewpager.CompatViewPager
+        android:id="@+id/viewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+</LinearLayout>

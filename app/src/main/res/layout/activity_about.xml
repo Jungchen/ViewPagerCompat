@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/RootLayout"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autoLink="all"
+            android:text="CompatViewPager继承自ViewPager，解决了在API 13及其以下版本中，ViewPager嵌套的时候子ViewPager不能滑动的问题\n\nInherited from the ViewPager, solve API 13 and the following, when the ViewPager nested child ViewPager cannot slide\n\n注意：你必须使用最新版的support-v4库\n\nWebSite: http://github.com/xiaopansky/CompatViewPager"/>
+    </ScrollView>
+</LinearLayout>
