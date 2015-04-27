@@ -6,7 +6,7 @@ Inherited from the ViewPager, solve API 13 and the following, when the ViewPager
 
 ## Sample App
 [Download it on Github](http://github.com/xiaopansky/CompatViewPager/raw/master/releases/compat-view-pager-1.0.0.apk)
-![enter image description here](http://github.com/xiaopansky/CompatViewPager/raw/master/releases/download.png)
+![qrcode](http://github.com/xiaopansky/CompatViewPager/raw/master/releases/download.png)
 
 ##Usage Guide
 ###NO.1 导入
