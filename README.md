@@ -10,7 +10,7 @@ Inherited from the ViewPager, solve API 13 and the following, when the ViewPager
 ![download.jpg](https://github.com/xiaopansky/CompatViewPager/raw/master/releases/download.jpg)
 
 ##Usage Guide
-###NO.1 导入
+###Step1 导入
 ####Using Eclipse
 点击下载 [compat-view-pager-1.0.0.jar](https://github.com/xiaopansky/CompatViewPager/raw/master/releases/compat-view-pager-1.0.0.jar) ，下载后放到libs目录下即可
 
@@ -30,7 +30,7 @@ dependencies{
 最后同步一下Gradle即可
 其实CompatViewPager只有一个class文件，所以你也可以直接下载jar文件放到libs目录下，然后同步Gradle即可
 
-###NO.2 使用
+###Step2 使用
 ```xml
 <me.xiaopan.compatviewpager.CompatViewPager
     android:id="@+id/viewPager_main"
