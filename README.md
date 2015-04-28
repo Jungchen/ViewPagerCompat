@@ -4,6 +4,8 @@ CompatViewPager继承自ViewPager，解决了在API 13及其以下版本中，Vi
 
 Inherited from the ViewPager, solve API 13 and the following, when the ViewPager nested child ViewPager cannot slide
 
+![sample.gif](https://github.com/xiaopansky/CompatViewPager/raw/master/releases/sample.gif)
+
 ## Sample App
 [Download it on Github](https://github.com/xiaopansky/CompatViewPager/raw/master/releases/compat-view-pager-1.0.0.apk)
 
