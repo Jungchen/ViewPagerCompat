@@ -30,11 +30,12 @@ dependencies{
 }
 ```
 最后同步一下Gradle即可
+
 其实CompatViewPager只有一个class文件，所以你也可以直接下载jar文件放到libs目录下，然后同步Gradle即可
 
 ###Step2 使用
 ```xml
-<me.xiaopan.compatviewpager.CompatViewPager
+<me.xiaopan.cvp.CompatViewPager
     android:id="@+id/viewPager_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>

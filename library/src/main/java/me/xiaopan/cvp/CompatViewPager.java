@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.compatviewpager;
+package me.xiaopan.cvp;
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;

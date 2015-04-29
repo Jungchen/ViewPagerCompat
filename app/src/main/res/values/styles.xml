@@ -18,6 +18,10 @@
 
     </style>
 
+    <style name="ContentLayout">
+
+    </style>
+
     <!-- 文本 - 滑动标签标题 -->
     <style name="text_slidingTabTitle">
         <item name="android:layout_width">wrap_content</item>

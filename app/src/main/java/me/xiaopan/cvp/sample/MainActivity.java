@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.compatviewpager.sample;
+package me.xiaopan.cvp.sample;
 
 import android.content.Intent;
 import android.os.Bundle;

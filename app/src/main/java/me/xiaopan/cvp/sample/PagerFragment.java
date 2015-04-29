@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.compatviewpager.sample;
+package me.xiaopan.cvp.sample;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

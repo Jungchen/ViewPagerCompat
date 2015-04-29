@@ -12,12 +12,12 @@
         android:layout_height="52dp"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorPrimary"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white">
+        style="@style/ContentLayout">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

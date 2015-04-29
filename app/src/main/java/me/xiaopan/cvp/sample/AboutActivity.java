@@ -14,26 +14,18 @@
  * limitations under the License.
  */
 
-package me.xiaopan.compatviewpager.sample;
+package me.xiaopan.cvp.sample;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
-public class FragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter{
-    private Fragment[] fragments;
-
-    public FragmentPagerAdapter(FragmentManager fm, Fragment[] fragments) {
-        super(fm);
-        this.fragments = fragments;
-    }
+public class AboutActivity extends AppCompatActivity {
 
     @Override
-    public Fragment getItem(int i) {
-        return fragments[i];
-    }
-
-    @Override
-    public int getCount() {
-        return fragments.length;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_about);
+        setSupportActionBar((Toolbar) findViewById(R.id.toolbar_main));
     }
 }

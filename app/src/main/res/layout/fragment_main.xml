@@ -25,7 +25,7 @@
         </LinearLayout>
     </me.xiaopan.android.widget.PagerSlidingTabStrip>
 
-    <me.xiaopan.compatviewpager.CompatViewPager
+    <me.xiaopan.cvp.CompatViewPager
         android:id="@+id/viewPager_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
