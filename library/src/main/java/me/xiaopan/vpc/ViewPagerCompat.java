@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.cvp;
+package me.xiaopan.vpc;
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;
@@ -24,19 +24,19 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * CompatViewPager
+ * ViewPagerCompat
  * <br>Inherited from the ViewPager, solve api13 and the following, when the ViewPager nested child ViewPager cannot slide
  *
  * @author xiaopan
- * @version 1.0.0
- * @website https://github.com/xiaopansky/CompatViewPager
+ * @version 1.1.0
+ * @website https://github.com/xiaopansky/ViewPagerCompat
  */
-public class CompatViewPager extends ViewPager {
-    public CompatViewPager(Context context) {
+public class ViewPagerCompat extends ViewPager {
+    public ViewPagerCompat(Context context) {
         super(context);
     }
 
-    public CompatViewPager(Context context, AttributeSet attrs) {
+    public ViewPagerCompat(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

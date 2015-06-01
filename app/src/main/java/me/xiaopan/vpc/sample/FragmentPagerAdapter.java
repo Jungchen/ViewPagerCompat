@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.cvp.sample;
+package me.xiaopan.vpc.sample;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

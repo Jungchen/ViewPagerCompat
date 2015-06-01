@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.xiaopan.cvp.sample;
+package me.xiaopan.vpc.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
