@@ -7,18 +7,31 @@ Inherited from the ViewPager, solve API 13 and the following, when the ViewPager
 ![sample.gif](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/sample.gif)
 
 ## Sample App
-[Download it on Github](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/view-pager-compat-1.1.0.apk)
+[Download it on Github](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/sample-1.1.0.apk)
 
 ![download.png](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/download.png)
 
 ##Usage Guide
-###Step1 导入
-####Using Eclipse
-点击下载 [view-pager-compat-1.1.0.jar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/view-pager-compat-1.1.0.jar) ，下载后放到libs目录下即可
+####1. 导入ViewPagerCompat（Import ViewPagerCompat to your project）
 
-####Using Android Studio
-点击下载 [view-pager-compat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/view-pager-compat-1.1.0.aar) ，下载后放到libs目录下，然后在build.gradle中添加以下代码
-```java
+#####使用Eclipse（Use Eclipse）
+1. 首先点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并改后缀名为zip
+2. 然后解压并将classes.jar文件重命名为viewpagercompat-1.1.0.jar
+3. 最后将viewpagercompat-1.1.0.jar拷贝到你的项目的libs目录下
+
+#####使用Gradle（Use Gradle）
+**从JCenter仓库导入（From jcenter import ）**
+
+```groovy
+dependencies{
+	compile 'me.xiaopan:viewpagercompat:1.1.0'
+}
+```
+
+**离线模式（Offline work）**
+点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)，并放到你module的libs目录下
+然后在你module的build.gradle文件中添加以下代码：
+```groovy
 repositories{
     flatDir(){
         dirs 'libs'
@@ -26,14 +39,22 @@ repositories{
 }
 
 dependencies{
-	compile(name:'view-pager-compat-1.1.0', ext:'aar')
+    compile(name:'viewpagercompat-1.1.0', ext:'aar')
 }
 ```
 最后同步一下Gradle即可
 
-其实ViewPagerCompat只有一个class文件，所以你也可以直接下载jar文件放到libs目录下，然后同步Gradle即可
+#####使用Maven（Use Maven）
+```xml
+<dependency>
+	<groupId>me.xiaopan</groupId>
+	<artifactId>viewpagercompat</artifactId>
+	<version>1.1.0</version>
+	<type>aar</type>
+</dependency>
+```
 
-###Step2 使用
+###2. 使用
 ```xml
 <me.xiaopan.vpc.ViewPagerCompat
     android:id="@+id/viewPager_main"
