@@ -46,16 +46,6 @@ dependencies{
 ```
 最后同步一下Gradle即可
 
-#####使用Maven（Use Maven）
-```xml
-<dependency>
-	<groupId>me.xiaopan</groupId>
-	<artifactId>viewpagercompat</artifactId>
-	<version>1.1.0</version>
-	<type>aar</type>
-</dependency>
-```
-
 ###2. 使用
 ```xml
 <me.xiaopan.vpc.ViewPagerCompat
