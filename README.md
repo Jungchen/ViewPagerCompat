@@ -4,23 +4,18 @@ ViewPagerCompat继承自ViewPager，解决了在API 13及其以下版本中，Vi
 
 Inherited from the ViewPager, solve API 13 and the following, when the ViewPager nested child ViewPager cannot slide
 
-![sample.gif](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/sample.gif)
+![sample](docs/sample.gif)
 
 ## Sample App
-[Download it on Github](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/sample-1.1.0.apk)
+[Download it on Github](https://github.com/xiaopansky/ViewPagerCompat/raw/master/docs/sample.apk)
 
-![download.png](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/download.png)
+![download](docs/qr_download.png)
 
 ##Usage Guide
 ####1. 导入ViewPagerCompat（Import ViewPagerCompat to your project）
 
-#####使用Eclipse（Use Eclipse）
-1. 首先点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并改后缀名为zip
-2. 然后解压并将classes.jar文件重命名为viewpagercompat-1.1.0.jar
-3. 最后将viewpagercompat-1.1.0.jar拷贝到你的项目的libs目录下
-
 #####使用Gradle（Use Gradle）
-**从JCenter仓库导入（From jcenter import ）**
+``从JCenter仓库导入（Import from jcenter）``
 
 ```groovy
 dependencies{
@@ -28,7 +23,7 @@ dependencies{
 }
 ```
 
-**离线模式（Offline work）**
+``离线模式（Offline work）``
 
 点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并放到你module的libs目录下
 
@@ -46,7 +41,41 @@ dependencies{
 ```
 最后同步一下Gradle即可
 
-###2. 使用
+#####使用Eclipse（Use Eclipse）
+1. 首先点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并改后缀名为zip
+2. 然后解压并将classes.jar文件重命名为viewpagercompat-1.1.0.jar
+3. 最后将viewpagercompat-1.1.0.jar拷贝到你的项目的libs目录下
+
+####2. 配置最低版本（Configure min sdk version）
+ViewPagerCompat最低兼容API v7
+
+#####使用Gradle（Use Gradle）
+在app/build.gradle文件文件中配置最低版本为7
+```groovy
+android {
+	...
+
+    defaultConfig {
+        minSdkVersion 7
+        ...
+    }
+}
+```
+
+#####使用Eclipse（Use Eclipse）
+在AndroidManifest.xml文件中配置最低版本为7
+```xml
+<manifest
+	...
+	>
+    <uses-sdk android:minSdkVersion="7"/>
+    <application>
+    ...
+    </application>
+</manifest>
+```
+
+###3. 使用
 ```xml
 <me.xiaopan.vpc.ViewPagerCompat
     android:id="@+id/viewPager_main"
