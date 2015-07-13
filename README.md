@@ -24,6 +24,7 @@ dependencies{
 ```
 
 ``离线模式（Offline work）``
+
 首先到[releases](https://github.com/xiaopansky/ViewPagerCompat/releases)页面下载最新版的aar包（`这里以viewpagercompat-1.1.0.aar为例，具体请以你下载到的文件名称为准`），并放到你module的libs目录下
 
 然后在你module的build.gradle文件中添加以下代码：
