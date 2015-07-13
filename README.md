@@ -24,8 +24,7 @@ dependencies{
 ```
 
 ``离线模式（Offline work）``
-
-点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并放到你module的libs目录下
+首先到[releases](https://github.com/xiaopansky/ViewPagerCompat/releases)页面下载最新版的aar包（`这里以viewpagercompat-1.1.0.aar为例，具体请以你下载到的文件名称为准`），并放到你module的libs目录下
 
 然后在你module的build.gradle文件中添加以下代码：
 ```groovy
@@ -42,9 +41,10 @@ dependencies{
 最后同步一下Gradle即可
 
 #####使用Eclipse（Use Eclipse）
-1. 首先点击下载[viewpagercompat-1.1.0.aar](https://github.com/xiaopansky/ViewPagerCompat/raw/master/releases/viewpagercompat-1.1.0.aar)并改后缀名为zip
-2. 然后解压并将classes.jar文件重命名为viewpagercompat-1.1.0.jar
-3. 最后将viewpagercompat-1.1.0.jar拷贝到你的项目的libs目录下
+1. 首先到[releases](https://github.com/xiaopansky/ViewPagerCompat/releases)页面下载最新版的aar包（`这里以viewpagercompat-1.1.0.aar为例，具体请以你下载到的文件名称为准`）
+2. 然后改后缀名为zip并解压
+3. 接下来将classes.jar文件重命名为viewpagercompat-1.1.0.jar
+4. 最后将viewpagercompat-1.1.0.jar拷贝到你的项目的libs目录下
 
 ####2. 配置最低版本（Configure min sdk version）
 ViewPagerCompat最低兼容API v7
